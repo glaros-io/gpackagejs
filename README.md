@@ -1,12 +1,6 @@
 # gpackagejs
 JS utilities
 
-## Features
-
-### Utilities
-
-### AJAX
-
 ## Quick Start
 
 ### CDN
@@ -55,6 +49,8 @@ var gajax = new Ajax(baseURL, params);
 ```
 const args = gbase.getGet();
 ```
+
+You can access your parameters as a list `args`, for example, parameter `my_param` is given by `args['my_param']`.
 
 ### GET/POST Request
 
