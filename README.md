@@ -1,6 +1,12 @@
 # gpackagejs
 JS utilities
 
+## Features
+
+### BASE Package
+
+### AJAX Package
+
 ## Usage
 
 ### CDN
