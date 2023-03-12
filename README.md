@@ -28,7 +28,7 @@ https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@300d0af4ce2516fbf09a5ffe613d2c1
 ###### AJAX Package
 
 ```
-https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@954f52842f668a99dc5a38ce7426bbaafd0c8234/ajax.js
+https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@4ef2bcb4ec48445cc1f984ac701e6ac9fa074064/ajax.min.js
 ```
 
 ### Install
