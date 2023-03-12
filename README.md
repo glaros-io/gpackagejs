@@ -34,7 +34,7 @@ var gbase = new gBase();
 </script>
 ```
 
-The ajax package can be similarly included as follows via CDN.
+The ajax package can be similarly included as follows via CDN. Params can be omitted if you do not use CSRF validation.
 
 ```
 <script src="<CDN LINK TO AJAX PACKAGE>"></script>
