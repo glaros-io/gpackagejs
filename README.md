@@ -34,7 +34,7 @@ var gbase = new gBase();
 </script>
 ```
 
-The ajax package can be similarly included as follows via CDN. Params can be omitted if you do not use CSRF validation.
+The ajax package can be similarly included as follows via CDN. Params can be omitted if you do not use CSRF validation. `CSRF TOKEN NAME` varies on platform that you use. For example, default token names are `X-CSRFToken` for Flask and `X-CSRF-TOKEN` for CodeIgniter.
 
 ```
 <script src="<CDN LINK TO AJAX PACKAGE>"></script>
