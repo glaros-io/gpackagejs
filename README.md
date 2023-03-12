@@ -62,7 +62,7 @@ const args = getGet();
 request(func, method, uri, data, xhr)
 ```
 
-- `func` is the function after getting response
+- `func` is the function after getting response, for example, `(status, response) => {...}`, where `status` is the status code and `response` is the `responseText` of the response.
 - `method` is either `POST` or `GET` case insensitive
 - `uri` (optional)
 - `data` (optional)
