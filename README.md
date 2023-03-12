@@ -1,4 +1,4 @@
-# gpackagejs
+# gPackageJS
 
 Scripts are primarily written for Glaros/DERaC applications. These scripts pack routine works such as getting GET parameters from URL and AJAX requests.
 
