@@ -100,7 +100,7 @@ Parameter set `params` is optional. It must be provided in JSON format if provid
 
 ```
 params = {
-    "uri": <ADDITIONAL_URI>,
+    "uri": "<ADDITIONAL_URI>",
     "data": <DATA_IN_JSON_FORMAT>,
     "xhr": <XML_HTTP_REQUEST>,
 }
