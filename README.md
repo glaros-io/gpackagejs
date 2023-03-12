@@ -64,6 +64,6 @@ request(func, method, uri, data, xhr)
 
 - `func` is the function after getting response, for example, `(status, response) => {...}`, where `status` is the status code and `response` is the `responseText` of the response.
 - `method` is either `POST` or `GET` case insensitive
-- `uri` (optional)
-- `data` (optional)
-- `xhr` (optional)
+- `uri` (optional) is the URI additional to `baseURI`, for example, `baseURI = "/api"` and `uri = "v1"` make a request for `/api/v1` that can be omitted when additional URI is not applied
+- `data` (optional) is the set of submitting parameters provided in JSON format that can be omitted when no parameter is submitted
+- `xhr` (optional) is the XMLHttpRequest object that can be omitted when existing XMLHttpRequest object is not reused
