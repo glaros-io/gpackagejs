@@ -1,10 +1,10 @@
 class gAjax {
-    constructor(baseURL, tokenName = 'X-CSRF-TOKEN', accessToken = null){
+    constructor(baseURL, params){
         this.name = 'G-Ajax';
         this.version = '1.0.2';
         this.baseURL = baseURL.replace(/\/{1,}$/, '');
-        this.tokenName = tokenName;
-        this.accessToken = accessToken;
+        this.tokenName = params.tokenName;
+        this.accessToken = params.accessToken;
     }
     gajaxVersion(){return JSON.stringify({'name': this.name, 'version': this.version})}
     prepareRequest(uri = null){
