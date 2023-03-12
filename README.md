@@ -22,7 +22,7 @@ Sources are provided via [JSDELIVR](https://www.jsdelivr.com).
 ###### Utility Package
 
 ```
-https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@300d0af4ce2516fbf09a5ffe613d2c19c6bb3f5d/base.js
+https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@c263cf0b8e295c08e79306d51ac1191653e4a285/base.min.js
 ```
 
 ###### AJAX Package
