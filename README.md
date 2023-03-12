@@ -5,7 +5,11 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/glaros-io/gpackagejs)
 ![GitHub all releases](https://img.shields.io/github/downloads/glaros-io/gpackagejs/total)
 
-Independent of any frameworks, scripts are primarily written for Glaros/DERaC applications. These scripts pack routine works such as getting GET parameters from URL and AJAX requests.
+Independent of any frameworks, scripts are primarily written for Glaros/DERaC applications. These scripts pack routine works such as getting GET parameters from URL and AJAX requests. The focal point of the AJAX package is the inclusion of CSRF token header of various names for various frameworks/projects.
+
+#### About Us
+
+Glaros and DERaC are a system development and network security consulting companies, respectively, located in Kamakura, Japan. We consist of economists, hackers, and writers with more than master degrees or appropriate professional certificates. Main working frameworks are Flask, Django, CodeIgniter, and Google Maps Platform. DERaC also provides economic consulting services.
 
 ## Quick Start
 
