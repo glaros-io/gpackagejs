@@ -5,7 +5,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/glaros-io/gpackagejs)
 ![GitHub all releases](https://img.shields.io/github/downloads/glaros-io/gpackagejs/total)
 
-Scripts are primarily written for Glaros/DERaC applications. These scripts pack routine works such as getting GET parameters from URL and AJAX requests.
+Independent of any frameworks, scripts are primarily written for Glaros/DERaC applications. These scripts pack routine works such as getting GET parameters from URL and AJAX requests.
 
 ## Quick Start
 
