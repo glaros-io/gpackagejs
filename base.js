@@ -3,7 +3,7 @@ class gBase {
         this.name = 'G-Base';
         this.version = '1.0.0';
     }
-    gajaxVersion(){return JSON.stringify({'name': this.name, 'version': this.version})}
+    gbaseVersion(){return JSON.stringify({'name': this.name, 'version': this.version})}
     getGET(){
         let args = new Object;
         url = location.search.substring(1).split('&');
