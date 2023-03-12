@@ -53,13 +53,13 @@ var gajax = new Ajax(baseURL, params);
 ### Get GET Parameters
 
 ```
-const args = getGet();
+const args = gbase.getGet();
 ```
 
 ### GET/POST Request
 
 ```
-request(func, method, uri, data, xhr)
+gajax.request(func, method, uri, data, xhr)
 ```
 
 - `func` is the function after getting response, for example, `(status, response) => {...}`, where `status` is the status code and `response` is the `responseText` of the response.
