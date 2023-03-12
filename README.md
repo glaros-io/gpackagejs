@@ -7,15 +7,15 @@ JS utilities
 
 #### BASE Package
 
-'''
+```
 https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@300d0af4ce2516fbf09a5ffe613d2c19c6bb3f5d/base.js
-'''
+```
 
 #### AJAX Package
 
-'''
+```
 https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@954f52842f668a99dc5a38ce7426bbaafd0c8234/ajax.js
-'''
+```
 
 ### Install
 
