@@ -6,7 +6,7 @@ class gBase {
     gbaseVersion(){return JSON.stringify({'name': this.name, 'version': this.version})}
     getGET(){
         let args = new Object;
-        url = location.search.substring(1).split('&');
+        let url = location.search.substring(1).split('&');
         for(i=0; url[i]; i++) {
             var k = url[i].split('=');
             args[k[0]] = k[1];
