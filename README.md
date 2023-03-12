@@ -11,13 +11,15 @@ Independent of any frameworks, scripts are primarily written for Glaros/DERaC ap
 
 ### CDN
 
-#### Utility Package
+Sources are provided via [JSDELIVR](https://www.jsdelivr.com).
+
+###### Utility Package
 
 ```
 https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@300d0af4ce2516fbf09a5ffe613d2c19c6bb3f5d/base.js
 ```
 
-#### AJAX Package
+###### AJAX Package
 
 ```
 https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@954f52842f668a99dc5a38ce7426bbaafd0c8234/ajax.js
