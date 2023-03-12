@@ -5,7 +5,7 @@
 */
 
 class gAjax {
-    constructor(baseURL, params){
+    constructor(baseURL = './', params = {'tokenName': null, 'accessToken': null}){
         this.name = 'G-Ajax';
         this.version = '1.0.2';
         this.baseURL = baseURL.replace(/\/{1,}$/, '');
