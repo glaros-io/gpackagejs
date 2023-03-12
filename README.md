@@ -1,5 +1,9 @@
 # gPackageJS
 
+![GitHub](https://img.shields.io/github/license/glaros-io/gpackagejs)
+![GitHub top language](https://img.shields.io/github/languages/top/glaros-io/gpackagejs)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/glaros-io/gpackagejs)
+
 Scripts are primarily written for Glaros/DERaC applications. These scripts pack routine works such as getting GET parameters from URL and AJAX requests.
 
 ## Quick Start
