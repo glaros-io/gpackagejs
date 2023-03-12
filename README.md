@@ -50,7 +50,20 @@ var gajax = new Ajax(baseURL, params);
 
 ## Usage
 
-### Utilities
+### Get GET Parameters
 
-### AJAX
+```
+const args = getGet();
+```
 
+### GET/POST Request
+
+```
+request(func, method, uri, data, xhr)
+```
+
+- `func` is the function after getting response
+- `method` is either `POST` or `GET` case insensitive
+- `uri` (optional)
+- `data` (optional)
+- `xhr` (optional)
