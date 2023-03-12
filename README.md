@@ -11,6 +11,8 @@ Independent of any frameworks, scripts are primarily written for Glaros/DERaC ap
 
 Glaros and DERaC are a system development and network security consulting companies, respectively, located in Kamakura, Japan. We consist of economists, hackers, and writers with more than master degrees or appropriate professional certificates. Main working frameworks are Flask, Django, CodeIgniter, and Google Maps Platform. DERaC also provides economic consulting services.
 
+We are able to communicate with customers in English, Japanese, and Chinese.
+
 ## Quick Start
 
 ### CDN
@@ -66,12 +68,44 @@ You can access your parameters as a list `args`, for example, parameter `my_para
 
 ### GET/POST Request
 
-```
-gajax.request(func, method, uri, data, xhr)
-```
+#### Requests
+
+There are three main functions for ajax requests: `get`, `post`, and `request`, where `get` for GET and `post` for POST requests are extensions of `request`. These functions require a posterior functiion `func` and a set of parameters `params` in a JSON form. `request` requires an additional parameter `method` to specify requesting method either GET or POST.
 
 - `func` is the function after getting response, for example, `(status, response) => {...}`, where `status` is the status code and `response` is the `responseText` of the response.
-- `method` is either `POST` or `GET` case insensitive
+- `method` is either `POST` or `GET` case insensitive (`request`)
+- `params` (optional) is the set of parameters in JSON form sending with the request
+
+###### GET request
+
+```
+gajax.get(func, params)
+```
+
+###### POST request
+
+```
+gajax.post(func, params)
+```
+
+###### GET/POST requests
+
+```
+gajax.request(func, method, params)
+```
+
+#### Parameters
+
+Parameter set `params` is optional. It must be provided in JSON format if provided. Omitted parameters are replaced with default value.
+
+```
+params = {
+    "uri": <ADDITIONAL_URI>,
+    "data": <DATA_IN_JSON_FORMAT>,
+    "xhr": <XML_HTTP_REQUEST>,
+}
+```
+
 - `uri` (optional) is the URI additional to `baseURI`, for example, `baseURI = "/api"` and `uri = "v1"` make a request for `/api/v1` that can be omitted when additional URI is not applied
 - `data` (optional) is the set of submitting parameters provided in JSON format that can be omitted when no parameter is submitted
 - `xhr` (optional) is the XMLHttpRequest object that can be omitted when existing XMLHttpRequest object is not reused
