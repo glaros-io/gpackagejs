@@ -30,7 +30,7 @@ class gAjax {
         }
         return params.join('&').replace(/%20/g, '+');
     }
-    request(func, method, params){
+    request(func, method, params = {}){
         let uri = (params.uri === undefined) ? '' : params.uri;
         let data = (params.data === undefined) ? '' : params.data;
         let xhr = (params.xhr === undefined) ? new XMLHttpRequest() : params.xhr;
@@ -45,11 +45,11 @@ class gAjax {
         xhr.send(data);
         xhr.abort();
     }
-    get(func, params){
+    get(func, params = {}){
         let method = 'get';
         this.request(func, method, params);
     }
-    post(func, params){
+    post(func, params = {}){
         let method = 'post';
         this.request(func, method, params);
     }
