@@ -38,9 +38,6 @@ class gAjax {
         xhr.onreadystatechange = function(){
             if(this.readyState == 4) func(this.status, this.responseText);
         }
-        xhr.onreadystatechange = function(){
-            if(this.readyState == 4) func(this.status, this.responseText);
-        }
         if(data !== '') data = this.encodeParams(data);
         xhr.open(method, url, false);
         if(/post/i.test(method)) xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
