@@ -3,15 +3,15 @@ JS utilities
 
 ## Features
 
-### BASE Package
+### Utilities
 
-### AJAX Package
+### AJAX
 
-## Usage
+## Quick Start
 
 ### CDN
 
-#### BASE Package
+#### Utility Package
 
 ```
 https://cdn.jsdelivr.net/gh/glaros-io/gpackagejs@300d0af4ce2516fbf09a5ffe613d2c19c6bb3f5d/base.js
@@ -47,3 +47,10 @@ let params = {
 var gajax = new Ajax(baseURL, params);
 </script>
 ```
+
+## Usage
+
+### Utilities
+
+### AJAX
+
