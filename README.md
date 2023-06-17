@@ -52,7 +52,7 @@ let params = {
     "tokenName": "<CSRF TOKEN NAME>",
     "accessToken": "<CSRF TOKEN HASH>",
 };
-var gajax = new Ajax(baseURL, params);
+var gajax = new gAjax(baseURL, params);
 </script>
 ```
 
